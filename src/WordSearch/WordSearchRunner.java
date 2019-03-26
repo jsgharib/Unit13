@@ -9,8 +9,8 @@ import java.io.*;
 public class WordSearchRunner {
 
     public static void main(String[] args) throws Exception {
-        WordSearch ms = new WordSearch(8, "APPLEXYPXLHJKEEDEGGLLXXCGFPDGOGNMYNTAHUUPUQDGBTSBTHIGHMSILKXLTHIS");
-        String[] words = "APPLE AXE APEX CAT HEX EGG HAT COMPUTER GUM THIS TUG THIGH".split(" ");
+        WordSearch ms = new WordSearch(8, "APPLEXYPXLHJKEEDEGGLLXXCDOGDGOGNMYNTAHUUPUQDGBTSBTHIGHMSILKXLTHIS");
+        String[] words = "APPLE AXE APEX CAT HEX EGG HAT COMPUTER GUM DOG THIS TUG THIGH".split(" ");
         System.out.println(ms);
         for (String s : words) {
             if (ms.isFound(s)) {
